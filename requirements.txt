@@ -1,0 +1,83 @@
+cloudpickle==3.1.2
+    # via
+    #   gymnasium
+    #   stable-baselines3
+contourpy==1.3.3
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+farama-notifications==0.0.6
+    # via gymnasium
+filelock==4.2.10
+    # via torch
+fonttools==4.68.0
+    # via matplotlib
+fsspec==2026.9.0
+    # via torch
+gymnasium==1.0.0
+    # via
+    #   sem-beam-gym
+    #   stable-baselines3
+jinja2==3.1.6
+    # via torch
+kiwisolver==1.5.1
+    # via matplotlib
+markupsafe==3.0.4
+    # via jinja2
+matplotlib==3.11.2
+    # via
+    #   sem-beam-gym
+    #   stable-baselines3
+mpmath==1.3.0
+    # via sympy
+networkx==3.7
+    # via torch
+numpy==1.26.4
+    # via
+    #   contourpy
+    #   gymnasium
+    #   matplotlib
+    #   pandas
+    #   scipy
+    #   sem-beam-gym
+    #   stable-baselines3
+packaging==26.3
+    # via matplotlib
+pandas==3.0.6
+    # via
+    #   sem-beam-gym
+    #   stable-baselines3
+pillow==13.0.0
+    # via matplotlib
+pyparsing==3.3.3
+    # via matplotlib
+python-dateutil==4.0.0
+    # via
+    #   matplotlib
+    #   pandas
+scipy==1.17.1
+    # via sem-beam-gym
+setuptools==84.2.1
+    # via torch
+stable-baselines3==2.4.1
+    # via sem-beam-gym
+sympy==1.13.1
+    # via torch
+tabulate==0.10.0
+    # via sem-beam-gym
+torch==2.5.1 ; (platform_machine == 'aarch64' and platform_python_implementation == 'CPython' and sys_platform == 'linux') or sys_platform == 'darwin'
+    # via
+    #   sem-beam-gym
+    #   stable-baselines3
+torch==2.5.1+cpu ; (platform_machine != 'aarch64' and sys_platform == 'linux') or (platform_python_implementation != 'CPython' and sys_platform == 'linux') or (sys_platform != 'darwin' and sys_platform != 'linux')
+    # via
+    #   sem-beam-gym
+    #   stable-baselines3
+typing-extensions==4.16.0
+    # via
+    #   gymnasium
+    #   torch
+tzdata==2026.6
+    # via
+    #   pandas
+    #   python-dateutil
